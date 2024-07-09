@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Kimutai Kirui - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #fce4ec, #e3f2fd);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .left-column {
+            width: 30%;
+            padding: 20px;
+            background-color: #d8d8db;
+            text-align: center;
+        }
+        .right-column {
+            width: 70%;
+            padding: 30px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 75%;
+            margin-bottom: 15px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background-color: #f6f6f7;
+        }
+        .contact-info {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .contact-info img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .download-cv {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .download-cv:hover {
+            background: #0056b3;
+        }
+        .download-cv img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .h2 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .skill-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .skill-box h4 {
+            display: flex;
+            align-items: center;
+            margin-top: 0;
+        }
+        .skill-box img {
+            width: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="profile.jpg" alt="Ian Kimutai Kirui" class="profile-img">
+            <h2>Ian Kimutai Kirui</h2>
+            <p>Developer</p>
+            <div class="social-icons">
+                <p><a href="https://www.x.com/kymian391"><img src="twitter.png" alt="Your Icon"class="social-icon"></a></p>
+                <p><a href="https://www.instagram.com/iannomejja/"><img src="instagram.png" alt="Your Icon"class="social-icon"></a></p>
+                <p><a href="https://www.linkedin.com"><img src="linkedin.png" alt="Your Icon"class="social-icon"></a></p>
+                <p><a href="https://www.git-hub.com"><img src="code.png" alt="Your Icon"class="social-icon"></a></p>
+                
+                 
+            </div>
+            <div class="contact-info">
+                <p><img src="phone-call.png" alt="Phone">+254798057857</p>
+                <p><img src="mail.png" alt="Email">kymian391@gmail.com</p>
+                <p><img src="location.png" alt="Location">Nairobi, Kenya</p>
+                <p><img src="calendar.png" alt="Birthday">August 30, 2003</p>
+            </div>
+            <button class="download-cv">
+                <a href="cybrary-cert-security-attacks-threats-and-vulnerabilities.pdf" class="download-cv"><img src="download.png" alt="Download"></a>
+            </button>
+        </div>
+        <div class="right-column">
+            <h2>About</h2>
+            <p>Enthusiastic computer science student at Kabarak University, passionate about building secure
+                systems and leveraging data for impactful solutions. Skilled in cybersecurity principles, data
+                management techniques, penetration testing with Kali Linux, and vulnerability analysis. Eager to
+                contribute to the ever-evolving field of technology.</p>
+            <p>My aim is to bring across your message and identity in the most creative way. I
+            created web design for many famous brand companies.</p>
+            <h2>What I Do!</h2>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <h4><img src="icons8-education-100.png" alt="edu">Education</h4>
+                    <p><strong>KCPE, 2016</strong>: Soy Academy, Mean Grade: B+</p>
+                <p><strong>KCSE, 2022</strong>: Baringo Boys High School, Mean grade: B+</p>
+                <P><strong>BSc Computer Science,2025</strong>: Kabarak Univesity Main campus</P>
+                </div>
+                <div class="skill-box">
+                    <h4><img src="icons8-skills-96.png" alt="skills">Skills</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="skill-box">
+                    <h4><img src="icons8-achievements-99.png" alt="Photography">Achievements</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="skill-box">
+                    <h4><img src="/api/placeholder/24/24" alt="Web">Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
